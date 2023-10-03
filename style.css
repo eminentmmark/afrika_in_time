@@ -135,7 +135,7 @@ span{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/FACESo.png')/*background image*/;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/marble2.png')/*background image*/;
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
@@ -152,6 +152,16 @@ span{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.home-img{
+	display: flex;
+/*	align-items: center;*/
+	justify-content: center;
+}
+
+.home-img img{
+	width: 28vw;
 }
 
 .social-media a{
@@ -207,11 +217,13 @@ span{
 .notice{
 	background: var(--second-bg-color);
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	gap: 1rem;
 }
 
 .notice-content{
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -219,8 +231,15 @@ span{
 }
 
 
+.notice-img{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+}
+
 .notice-img img{
-	width: 35vw;
+	width: 22vw;
 	border-radius: 2%;
 }
 
@@ -250,6 +269,10 @@ span{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+.about-img{
+	width: 40vw;
 }
 
 .about-img img{
@@ -376,8 +399,13 @@ span{
 	padding: 2.5rem 2rem 3rem;
 	border-radius: 2rem;
 	text-align: center;
-	border: .07rem solid var(--main-color);
+	border: .0775rem solid var(--main-color);
 	transition: .5s ease;
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/marble2.png')/*background image*/;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
 }
 
 .services-container .services-box:hover{
@@ -498,7 +526,7 @@ span{
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 0.5rem 15% 0.25rem;
+	padding: .5rem 15% 0.25rem;
 	background: var(--bg-color);
 }
 
@@ -516,7 +544,7 @@ span{
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	padding: .1rem;
+	padding: 1rem;
 	background: var(--main-color);
 	border-radius: 1.2rem;
 	transition: .5s ease;
@@ -651,6 +679,9 @@ span{
 	}
 	.buto{
 		flex-direction: column;
+	}
+	.notice-img{
+		grid-template-columns: 1fr;
 	}
 	.about-col{
 		font-size: 1.25rem;
