@@ -464,6 +464,10 @@ span{
 	margin: .8rem 0 2rem;
 }
 
+.sumaz{
+	text-shadow: 0 0 1rem var(--altmain-color);
+}
+
 /*--- contacts ---*/
 
 .contact{
