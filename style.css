@@ -242,7 +242,7 @@ span{
 	gap: 2rem;
 }
 
-.notice-img img{
+.notice-img img, video{
 	width: 22vw;
 	border-radius: 2%;
 }
@@ -718,11 +718,20 @@ span{
 		width: 70vw;
 		margin-top: 4rem;
 	}
+	.home-img video{
+		width: 60vw;
+	}
 	.buto{
 		flex-direction: column;
 	}
+	.trailer video{
+		width: 66vw;
+	}
 	.notice-img{
 		grid-template-columns: 1fr;
+	}
+	.notice-img video{
+		width: 75vw;
 	}
 	.about-col{
 		font-size: 1.25rem;
