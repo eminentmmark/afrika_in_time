@@ -720,6 +720,7 @@ span{
 	}
 	.home-img video{
 		width: 60vw;
+		padding-bottom: 40px;
 	}
 	.buto{
 		flex-direction: column;
