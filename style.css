@@ -12,9 +12,6 @@
 }
 
 :root {
-	/*--bg-color: #2d0000;
-	--second-bg-color: #8b0000;*/
-
 	--bg-color: #8b0000;
 	--second-bg-color: #2d0000;
 	--text-color: #c0c0c0;
@@ -601,6 +598,45 @@ span{
 }
 
 
+/*  pag page  */
+
+.pag{	
+	min-height: 110vh;
+	padding: 120px 0 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/F-e2mf1XAAAyxgX.jpeg')/*background image*/;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.buto2 {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.btn2{
+	display: inline-block;
+	padding: 0.7rem 2rem;
+	background: var(--text2-color);
+	border-radius: 4rem;
+	box-shadow: 0 0 1rem var(--main-color);
+	font-size: 1.0rem;
+	color: var(--bg-color);
+	letter-spacing: .03rem;
+	font-weight: 600;
+	transition: .65s ease;
+}
+
+.btn2:hover{
+	box-shadow: none;
+	color: var(--main-color);
+}
+
+
 @media(max-width: 1400px){
 	html{
 		font-size: 92%;
@@ -622,6 +658,14 @@ span{
 	.home{
 		flex-direction: column;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/GryuLich.jpeg')/*background image*/;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+	}
+	.pag{	
+		/*min-height: 110vh;
+		padding: 120px 0 0;*/
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/F-e2mf1XAAAyxgX.jpeg')/*background image*/;
 		background-position: center;
 		background-size: cover;
 		overflow: hidden;
