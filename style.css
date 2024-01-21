@@ -12,12 +12,12 @@
 }
 
 :root {
-	--bg-color: #00FFFF ;
-	--second-bg-color: #FF69B4 ;
-	--text-color: #c0c0c0;
-	--text2-color: #000;
-	--main-color: #d69900;
-	--altmain-color: #FFE5B4;
+	--bg-color: #FF69B4 ;
+	--second-bg-color: #00ffff ;
+	--text-color: #e8cbae;
+	--text2-color: #e1c699;
+	--main-color: #f5f5dc;
+	--altmain-color: #d0c3a1;
 	--submain-color: #FAF9F6;
 }
 
@@ -124,7 +124,8 @@ span{
 
 /*--- home ---*/
 
-.home{
+.home{	
+	background: var(--second-bg-color);
 	position: relative;
 	min-height: 110vh;
 	padding: 0 100px;
@@ -132,7 +133,7 @@ span{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/marble2.png')/*background image*/;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/ait 2.jpg')/*background image*/;
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
@@ -212,7 +213,6 @@ span{
 /*--- notice board ---*/
 
 .notice{
-	background: var(--second-bg-color);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -245,7 +245,7 @@ span{
 }
 
 .notice span{
-	color: #af0000;
+	color: #dcbfa6;
 }
 /*
 .trailer {
@@ -286,7 +286,8 @@ span{
 
 /*--- about ---*/
 
-.about{
+.about{	
+/*	background: var(--second-bg-color);*/
 	display: flex;
 /*	justify-content: center;*/
 	align-items: center;
@@ -343,7 +344,8 @@ span{
 }
 
 .catalog span{
-	color: #af0000;
+	color: var(--altmain-color)
+;
 }
 
 .catalog-container{
@@ -412,6 +414,10 @@ span{
 }
 
 /*--- services ---*/
+
+.services{
+/*	background: var(--second-bg-color);*/
+}
 
 .services h2{
 	font-size: 3rem;
@@ -501,12 +507,13 @@ span{
 	font-size: 1rem;
 	font-weight: 400;
 	color: var(--text-color);
+	text-align: center;
 }
 
 .contact-col div{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+/*	align-items: center;*/
 	margin: 20px;
 }
 
@@ -603,7 +610,7 @@ span{
 .pag{	
 	min-height: 110vh;
 	padding: 120px 0 0;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/F-e2mf1XAAAyxgX.8jpeg')/*background image*/;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/F-e2mf1XAAAyxgX.jpeg')/*background image*/;
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
