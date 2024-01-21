@@ -712,6 +712,7 @@ span{
 		grid-template-columns: repeat(2, 1fr);
 	}
 	.contact{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/download (3).jpeg')/*background image*/;
 		min-height: auto;
 	}
 	.contact-us h1{
