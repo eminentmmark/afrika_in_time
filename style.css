@@ -179,7 +179,7 @@ span{
 
 .social-media a:hover{
 	background: var(--altmain-color);
-	color: var(--second-bg-color);
+	color: var(--bg-color);
 	box-shadow: 0 0 1rem var(--altmain-color);
 }
 
@@ -197,7 +197,7 @@ span{
 	padding: 0.7rem 2rem;
 	background: var(--altmain-color);
 	border-radius: 4rem;
-	box-shadow: 0 0 1rem var(--altmain-color);
+	box-shadow: 0 0 1rem var(--text2-color);
 	font-size: 1.0rem;
 	color: var(--bg-color);
 	letter-spacing: .03rem;
@@ -664,7 +664,7 @@ span{
 	}
 	.home{
 		flex-direction: column;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/GryuLich.jpeg')/*background image*/;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7)/* first color code*/,rgba(0,0,0,0.7)), url('images/Feather Prints.jpeg')/*background image*/;
 		background-position: center;
 		background-size: cover;
 		overflow: hidden;
