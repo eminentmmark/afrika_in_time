@@ -14,11 +14,11 @@
 :root {
 	--bg-color: #FF69B4 ;
 	--second-bg-color: #00ffff ;
-	--text-color: #e8cbae;
-	--text2-color: #e1c699;
-	--main-color: #f5f5dc;
-	--altmain-color: #d0c3a1;
-	--submain-color: #FAF9F6;
+	--text-color: #f037f4;
+	--text2-color: #f07af6;
+	--main-color: #00eab9;
+	--altmain-color: #f437b3;
+	--submain-color: #f8d4fe;
 }
 
 html {
@@ -36,7 +36,7 @@ section {
 }
 
 h1{
-	color: var(--text2-color);
+	color: var(--altmain-color);
 	text-align: center;
 	font-size: 44px;
 }
@@ -179,7 +179,7 @@ span{
 
 .social-media a:hover{
 	background: var(--altmain-color);
-	color: var(--bg-color);
+	color: var(--main-color);
 	box-shadow: 0 0 1rem var(--altmain-color);
 }
 
@@ -199,7 +199,7 @@ span{
 	border-radius: 4rem;
 	box-shadow: 0 0 1rem var(--text2-color);
 	font-size: 1.0rem;
-	color: var(--bg-color);
+	color: var(--main-color);
 	letter-spacing: .03rem;
 	font-weight: 600;
 	transition: .65s ease;
@@ -245,7 +245,7 @@ span{
 }
 
 .notice span{
-	color: #dcbfa6;
+	color: #00ff85;
 }
 /*
 .trailer {
@@ -601,7 +601,7 @@ span{
 
 .footer-iconTop a i{
 	font-size: 1.8rem;
-	color: var(--second-bg-color);
+	color: var(--text2-color);
 }
 
 
