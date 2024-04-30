@@ -733,13 +733,13 @@ span{
 		flex-direction: column;
 	}
 	.footer{
-		padding: 2rem 3%;
+		padding: 0.5rem 3%;
 	}
 }
 
 @media (max-width: 768px){
 	.header{
-		padding: 1rem 3%;
+		padding: 0.4rem 3%;
 	}
 	h1{
 		font-size: 2.3rem;
